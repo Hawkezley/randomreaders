@@ -84,6 +84,10 @@ input[type=text] {
   transition: 0.2s;
 }
 
+input[type=text]::placeholder {
+  font-size:140%;
+}
+
 input[type=text]:focus {
   border-bottom:3px solid var(--main-color);
 }
@@ -96,4 +100,5 @@ button {
   background-color: var(--second-color);
   border: 0px;
   border-radius: 5px;
+  font-size: 100%;
 }
