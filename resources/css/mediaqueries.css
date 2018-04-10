@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1560px) {
+  .header-text-large {
+    font-size: 600%;
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .header-text-large {
+    font-size: 375%;
+  }
+  .header-text {
+    font-size: 125%;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .header-text-large {
+    font-size: 300%;
+  }
+  .header-text-main {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header-text-large {
+    font-size: 175%;
+  }
+  .header-text {
+    font-size: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 580px) {
+  .header-text-large {
+    font-size: 225%;
+  }
+  .header-text {
+    font-size: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+  .header-text-large {
+    font-size: 200%;
+  }
+  .header-text {
+    font-size: 100%;
+  }
+
+}
