@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1920px) {
+  
+}
+
+@media only screen and (max-width: 1120px) {
+  .header-text-large {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .header-text-large {
+    font-size: 2.25rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header-text-large {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .header-text-large {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .header-text-large {
+    font-size: 1.5rem;
+  }
+}
