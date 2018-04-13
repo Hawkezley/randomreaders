@@ -1,12 +1,6 @@
 /*----------------------------------
 MAIN CODE 
 ----------------------------------*/
-:root {
-  --text-color:#fff;
-  --background-color:#555;
-  --main-color: #00a8ff;
-  --second-color: #e84118;
-}
 
 * {
   margin: 0;
@@ -16,11 +10,11 @@ MAIN CODE
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: #555;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 20px;
   text-rendering: optimizeLegibility;
 }
 
@@ -50,7 +44,7 @@ HEADER
   background-position: center;
 }
 
-.header-text {
+.header-container {
   width: 90%;
   text-transform: uppercase;
   text-align: center;
@@ -62,11 +56,11 @@ HEADER
 }
 
 .header-text {
-  font-size:120%;
+  font-size:1rem;
 }
 
 .header-text-large {
-  font-size: 700%;
+  font-size: 3rem;
   font-weight: 200;
 }
 
@@ -74,31 +68,41 @@ input[type=text] {
   padding: 10px;
   width: 100%;
   background-color:rgba(0, 0, 0, 0);
-  color: var(--text-color);
+  color: #fff;
   text-align: center;
   text-transform: uppercase;
   border: none;
-  border-bottom: 1px solid var(--main-color);
+  border-bottom: 1px solid rgba(0, 168, 255, 0.2);
   outline:none;
   height:30px;
   transition: 0.2s;
 }
 
 input[type=text]::placeholder {
-  font-size:140%;
+  font-size:1rem;
+  font-weight: bold;
 }
 
 input[type=text]:focus {
-  border-bottom:3px solid var(--main-color);
+  border-bottom:1px solid #00a8ff;
 }
 
-button {
+button,
+button:visited,
+button:active {
   padding:10px;
   width:40%;
   text-transform: uppercase;
   color:#ffffff;
-  background-color: var(--second-color);
+  background-color: #e84118;
   border: 0px;
   border-radius: 5px;
-  font-size: 100%;
+  font-size: 1rem;
+  transition: 0.2s;
+}
+
+button:hover,
+button:active {
+  cursor: pointer;
+  background-color: #d13a15;
 }
