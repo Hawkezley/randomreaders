@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Access to /dev"
-AuthUserFile /kunden/homepages/39/d731831681/htpasswd
-Require user rr-alex
